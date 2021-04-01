@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    text-decoration: none;
+}
+section {
+    margin: 5em auto;
+    width: min(40vw);
+}
+
+footer {
+    margin: 5em auto;
+    width: min(40vw);
+}
+
+#titulo-site {
+    font-family: 'Poppins ExtraBold', sans-serif;
+    text-align: center;
+    display: flex center;
+    font-size: 18pt;
+}
+
+#titulo-site a {
+    color: #FFAE00;
+}
+
+.menu-links {
+    font-family: 'Poppins SemiBold', sans-serif;
+    display: flex;
+    padding: 0;
+    margin-bottom: 5rem;
+    font-size: 14pt;
+    list-style: none;
+    transition: .3s ease-in-out;
+}
+
+.menu-links a {
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+}
+
+.menu-links a:hover {
+    color: #8E6C04 !important;
+    font-weight: bold;
+}
+
+.menu-links li {
+    margin: 0 15px 0;
+}
+
+.menu-links li:first-child {
+    margin-left: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #222831;
+}
+
+#voltar-topo a {
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+    text-decoration: none;
+}
+
+#voltar-topo a:hover {
+    color: #8E6C04 !important;
+}
