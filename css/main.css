@@ -4,12 +4,12 @@
 }
 section {
     margin: 5em auto;
-    width: min(40vw);
+    width: min(700px, 80vw);
 }
 
 footer {
     margin: 5em auto;
-    width: min(40vw);
+    width: min(700px, 80vw);
 }
 
 #titulo-site {
