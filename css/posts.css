@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/*GLOBAL*/
+
+/*                    ANIMATION                  */
+
+.harry_potter {
+    animation: transitionIn 0.75s;
+}
+
+.lista-jogos {
+    animation: transitionIn 0.75s;
+}
+
+.receita {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+/*                    ANIMATION                  */
+
+body {
+    background: #1B2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    width: min(900px, 90vw);
+    text-decoration: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #222831;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #E3BD4A;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+main h1 {
+    color: #E3BD4A;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: 'Poppins ExtraBold';
+    text-transform: uppercase;
+    margin-top: -3rem;
+}
+
+.menu-links {
+    font-family: 'Poppins SemiBold', sans-serif;
+    display: flex;
+    padding: 0;
+    margin-bottom: 5rem;
+    font-size: 14pt;
+    list-style: none;
+    transition: .3s ease-in-out;
+}
+
+.menu-links a {
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+    text-decoration: none;
+}
+
+.menu-links a:hover {
+    color: #8E6C04 !important;
+    font-weight: bold;
+}
+
+.menu-links li {
+    margin: 0 15px 0;
+}
+
+.menu-links li:first-child {
+    margin-left: 0;
+}
+
+#voltar-topo {
+    padding-top: 2rem;
+}
+
+#voltar-topo a {
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+    text-decoration: none;
+}
+
+#voltar-topo a:hover {
+    color: #8E6C04 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    margin: 5em auto;
+    width: min(900px, 90vw);
+}
+/*GLOBAL*/
+
+/*LISTA DE JOGOS*/
+
+table {
+    padding: 5rem;
+}
+img {
+    width: 25rem;
+    margin: 2.5em auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.25px solid #1B2029;
+    border-radius: 3px;
+    display: block
+}
+
+tr {
+    display: table-row;
+    text-align: center;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table tbody th {
+    border-radius: 1px;
+    background: #E3BD4A;
+    color: black;
+    padding: 1rem 2rem;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+table tbody td {
+    border-radius: 1px;
+    background: #040B18;
+    padding: 1rem 2rem;
+    transition: ease-in-out .2s;
+}
+
+/*HARRY POTTER*/
+
+
+blockquote {
+    margin: 0;
+    width: 40rem;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #040B18;
+    border-radius: 20px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+#outra-pagina-hp a {
+    text-decoration: none;
+    padding-bottom: 5rem;
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+}
+
+#outra-pagina-hp a:hover {
+    color: #8E6C04 !important;
+}
+
+.harry_potter h2 {
+    width: 30rem;
+    text-align: center;
+}
+
+/*HARRY POTTER*/
+
+/*RECEITA*/
+
+section {
+    margin: 5em auto;
+    width: min(40vw);
+}
+
+.menu-links {
+    font-family: 'Poppins SemiBold', sans-serif;
+    display: flex;
+    padding: 0;
+    margin-bottom: 5rem;
+    font-size: 14pt;
+    list-style: none;
+    transition: .3s ease-in-out;
+}
+
+.menu-links a {
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+    text-decoration: none;
+}
+
+.menu-links a:hover {
+    color: #8E6C04 !important;
+    font-weight: bold;
+}
+
+.menu-links li {
+    margin: 0 15px 0;
+}
+
+.menu-links li:first-child {
+    margin-left: 0;
+}
+
+#voltar-topo {
+    padding-top: 2rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.descricao-receita {
+    margin-top: -2rem;
+}
+
+.introducao-receita p {
+    margin-top: -2rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.video-receita {
+    width: 35rem;
+}
+
+.tabela-receita {
+    padding: 0.2rem;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #1B2029;
+    margin-left: -23rem;
+}
+
+.tabela-receita td {
+    padding: 0;
+}
+
+.tabela-receita p {
+    border: none;
+    font-weight: 300;
+}
+
+.porcao-receita {
+    background-color: #1B2029;
+}
+
+.tempo-receita {
+    background-color: #1B2029;
+}
+
+.relogio img {
+    width: 2rem;
+    border: none;
+}
+
+.relogio {
+    background-color: #1B2029;
+}
+
+.garfo img {
+    width: 2rem;
+    border: none;
+}
+
+.garfo {
+    background-color: #1B2029;
+}
+
+.ingredientes-receita {
+    font-weight: 300;
+}
+
+.modo-preparo-receita {
+    text-align: justify center;
+    width: 50rem;
+    font-weight: 300;
+}
+
+
+#voltar-topo a {
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+    text-decoration: none;
+}
+
+#voltar-topo a:hover {
+    color: #8E6C04 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    margin: 5em auto;
+    width: min(900px, 90vw);
+}
+
