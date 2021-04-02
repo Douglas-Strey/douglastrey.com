@@ -328,6 +328,31 @@ section {
     font-weight: 300;
 }
 
+.link-final h4 {
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 300;
+    margin-top: -12rem;
+}
+
+.link-final a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #E3BD4A;
+}
+
+.link-final a:hover {
+    color: #8E6C04 !important;
+}
+
+.foto-receita-final img {
+    width: 50rem;
+    margin-top: -3rem;
+}
+
+#voltar-topo {
+    margin-top: -12rem;
+}
 
 #voltar-topo a {
     transition: .3s ease-in-out;
@@ -345,6 +370,7 @@ html {
 
 footer {
     margin: 5em auto;
+    margin-top: -8rem;
     width: min(900px, 90vw);
 }
 
