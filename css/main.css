@@ -40,6 +40,10 @@ footer {
     width: min(900px, 90vw);
 }
 
+footer p {
+    font-size: 10px;
+}    
+
 #titulo-site {
     font-family: 'Poppins ExtraBold', sans-serif;
     text-align: center;
