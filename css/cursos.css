@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+/*                    ANIMATION                  */
+
+.container {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+/*                    ANIMATION                  */
+
+section {
+    margin: 5em auto;
+    width: min(40vw);
+}
+
+nav {
+    margin: 5em auto;
+    width: min(40vw);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #222831;
+}
+
+#titulo-site {
+    font-family: 'Poppins ExtraBold', sans-serif;
+    text-align: center;
+    display: flex center;
+    font-size: 18pt;
+}
+
+#titulo-site a {
+    color: #FFAE00;
+}
+
+.menu-links {
+    font-family: 'Poppins SemiBold', sans-serif;
+    display: flex;
+    padding: 0;
+    margin-bottom: 5rem;
+    font-size: 14pt;
+    list-style: none;
+    
+}
+
+.menu-links a {
+    transition: .3s ease-in-out;
+    color: #E3BD4A;
+    letter-spacing: 2px;
+}
+
+.menu-links a:hover {
+    color: #8E6C04 !important;
+    font-weight: bold;
+}
+
+.menu-links li {
+    margin: 0 15px 0;
+}
+
+.menu-links li:first-child {
+    margin-left: 0;
+}
+
+
+
+.cursoss {
+    color: #8E6C04 !important;
+}
+
+.cursos-online {
+    position: absolute;
+}
+
+.cursos-online img {
+    width: 450px;
+    margin-left: 86rem;
+    margin-top: -15rem;
+}
+
+footer {
+    margin: 5em auto;
+    width: min(40vw);
+}
+
+
