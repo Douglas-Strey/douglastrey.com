@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"
+    href="https://www.flaticon.com/svg/vstatic/svg/1455/1455014.svg?token=exp=1617287477~hmac=1603f7557095f8d737c87edb562738cb"
+    type="imagem/gif">
+  <title>Cursos</title>
+  <link rel="stylesheet" href="/main.css " />
+</head>
+
+<body>
+  <div class="transition transition-1 is-active"></div>
+  <div class="page">
+    <header>
+      <nav>
+
+        <img src="/assets/sobre/aa.png" alt="Douglas Strey" class="logo" />
+
+        <ul class="menu">
+          <li class="menu-item"><a href="/index.html">Início</a></li>
+          <li class="menu-item"><a href="/pages/sobre.html">Sobre</a></li>
+          <li class="menu-item is-active"><a href="/pages/cursos.html">Cursos</a></li>
+          <li class="menu-item"><a href="https://linktr.ee/douglas_strey" target="_blank">Contato</a></li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner-cursos">
+        <div class="banner-inner">
+          <h1>Quais cursos já fiz?</h1>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="content-inner">
+          <h2>Cursos Profissionalizantes</h2>
+          <div class="container">
+            <div class="card">
+              <div class="content">
+                <h2>01</h2>
+                <h3>Udemy</h3>
+                <p>Algoritmos e Lógica de Programação</p>
+                <a class="certificado" href="https://www.geekuniversity.com.br/certificado/CG-F47EBB0B"
+                >Ver certificado</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2>02</h2>
+                <h3>Udemy</h3>
+                <p>Curso Web Design HTML5, CSS3 e JS</p>
+                <a class="certificado" href="/pages/cursos.html">Em progresso</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <h2>03</h2>
+                <h3>Udemy</h3>
+                <p>Programação em Python do básico ao avançado</p>
+                <a class="certificado" href="/pages/cursos.html">Pausado</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/main.js"></script>
+  <script src="/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 200
+    });
+  </script>
+</body>
+
+</html>
