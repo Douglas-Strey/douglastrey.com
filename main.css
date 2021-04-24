@@ -250,11 +250,12 @@ main .page-content p {
 
 .container
 {
+  margin-left: 0;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1800px;
   flex-wrap: wrap;
   z-index: 1;
 }
@@ -262,6 +263,7 @@ main .page-content p {
 .container .card
 {
   position: relative;
+  
   width: 320px;
   height: 200;
   margin: 30px;
@@ -279,7 +281,7 @@ main .page-content p {
 
 .container .card .content
 {
-  padding: 100px;
+  padding: 80px;
   text-align: center;
   transform: translateY(100px);
   opacity: 0;
@@ -292,7 +294,7 @@ main .page-content p {
   opacity: 1;
 }
 
-.container .card .content h2
+.container .card h2
 {
   position: absolute;
   top: -30px;
@@ -317,7 +319,7 @@ main .page-content p {
   font-weight: 300;
 }
 
-.container .card .content .certificado 
+.container .card .content a 
 {
   position: relative;
   display: inline-block;
@@ -331,7 +333,7 @@ main .page-content p {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.container .card .content .certificado:hover
+.container .card .content a:hover
 {
   color: #8A8A8B;
   transition: .2s ease-in-out;
