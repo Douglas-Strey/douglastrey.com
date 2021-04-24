@@ -4,9 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon"
-    href="https://www.flaticon.com/svg/vstatic/svg/1455/1455014.svg?token=exp=1617287477~hmac=1603f7557095f8d737c87edb562738cb"
-    type="imagem/gif">
+  <link rel="shortcut icon" href="/assets/icons/homepage.svg" type="image/x-icon">
   <title>Douglas Strey</title>
   <link rel="stylesheet" href="/main.css" />
 </head>
@@ -44,7 +42,61 @@
           <p>Este site será voltado para demonstrar meus aprendizados na faculdade e no futuro utilizar como meu
             portfólio profissional.</p>
           <br><br>
-          <ul>
+          <div class="container">
+            <div class="card">
+              <h2>01</h2>
+              <div class="content">
+                <h3>Lista de Jogos</h3>
+                <p>Trabalho realizado para a faculdade.</p>
+                <a href="/pages/lista_jogos.html"
+                  target="_blank">Ver Página</a>
+              </div>
+            </div>
+            <div class="card">
+              <h2>02</h2>
+              <div class="content">
+                <h3>Picanha ao forno</h3>
+                <p>Trabalho realizado para a faculdade.</p>
+                <a class="certificado" href="/pages/receita.html">Ver Página</a>
+              </div>
+            </div>
+            <div class="card">
+              <h2>03</h2>
+              <div class="content">
+                <h3>Harry Potter</h3>
+                <p>Trabalho realizado para a faculdade.</p>
+                <a class="certificado" href="/pages/harry_potter.html">Ver Página</a>
+              </div>
+            </div>
+            <div class="card">
+              <h2>04</h2>
+              <div class="content">
+                <h3>Site Fashion</h3>
+                <p>Projeto realizado no curso de HTML.</p>
+                <a class="certificado" href="/pages/fashion.html">Ver Página</a>
+              </div>
+            </div>
+            <div class="card">
+              <h2>05</h2>
+              <div class="content">
+                <h3>Projeto HTML+CSS</h3>
+                <p>Primeiro projeto realizado no curso de HTML.</p>
+                <a class="certificado" href="/pages/curso-web.html">Ver Página</a>
+              </div>
+            </div>
+            <div class="card">
+              <h2>06</h2>
+              <div class="content">
+                <h3>Em breve</h3>
+                <p>Em breve estarei atualizando o site com mais novidades e aprendizados.</p>
+                <a class="certificado" href="../">...</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- <ul>
             <li><a href="/pages/lista_jogos.html">Lista de jogos</a></li>
             <br>
             <li><a href="/pages/receita.html">Receita</a></li>
@@ -54,13 +106,20 @@
             <li><a href="/pages/fashion.html">Site Fashion</a></li>
             <br>
             <li><a href="/pages/curso-web.html">Curso Web Fundamentos HTML</a></li>
-          </ul>
+          </ul> -->
         </div>
       </section>
     </main>
   </div>
 
   <script src="/main.js"></script>
+  <script src="/vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 200
+    });
+  </script>
 
 </body>
 
